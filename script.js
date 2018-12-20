@@ -1,1 +1,24 @@
-//alert("Hello! World");
+var mynum=3;
+            document.write("We are starting with the number "+mynum);
+            document.write("<br/>");
+            var mynum+=8;
+            document.write("Adding 8 to this number results in: "+mynum)
+            document.write("<br/>");
+            var mynum*5;
+            document.write("Subtracting 4 to this number results in: "+mynum)
+            document.write("<br/>");
+            var mynum/7;
+            document.write("Subtracting 4 to this number results in: "+mynum)
+            document.write("<br/>");
+            var mynum-=4;
+            document.write("Subtracting 4 to this number results in: "+mynum)
+            document.write("<br/>");
+            var mynum++;
+            document.write("Using the increment operator to this number results in:"+mynum)
+            document.write("<br/>");
+            var mynum--;
+            document.write("Using the decrement operator to this number results in: "+mynum)
+            document.write("<br/>");
+            var mynum%=2, mynum/=2;
+            document.write("Using the modulus operator and dividing this number by 2 results in: "+mynum)
+            document.write("<br/>");
